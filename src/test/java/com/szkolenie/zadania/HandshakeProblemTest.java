@@ -16,7 +16,7 @@ class HandshakeProblemTest {
         int result = HandshakeProblemSolver.calculateNumberOfPeople(numberOfHandshakes);
 
         //then
-        assertThat(result).isEqualTo(4);
+        assertThat(result).isEqualTo(5);
     }
 
     @Test
