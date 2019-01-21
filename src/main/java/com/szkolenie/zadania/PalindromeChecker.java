@@ -4,11 +4,11 @@ package com.szkolenie.zadania;
 class PalindromeChecker {
 
     public static boolean checkIsPalindrome(String possiblePalindrome) {
-        if(possiblePalindrome == null) {
+        if (possiblePalindrome == null) {
             throw new IllegalArgumentException();
         }
 
-        for (int i = 0; i < possiblePalindrome.length(); i++) {
+        for (int i = 0; i < possiblePalindrome.length() / 2; i++) {
             if (possiblePalindrome.charAt(i) != possiblePalindrome.charAt(possiblePalindrome.length() - 1 - i)) {
                 return false;
             }
