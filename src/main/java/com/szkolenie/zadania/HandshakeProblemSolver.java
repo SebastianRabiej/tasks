@@ -16,7 +16,7 @@ class HandshakeProblemSolver {
             return result = (int) (-b + Math.sqrt(delta) / (2 * a));
 
         }
-        return result = 0;
+        return result = 1;
     }
 
     public static int calculateNumberOfHandshakes(int numberOfPeople) {
